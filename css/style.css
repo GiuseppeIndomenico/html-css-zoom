@@ -49,7 +49,7 @@ main {
 
 .grid,
 .expand {
-    background-color: var(--sec-footer);
+    background-color: var(--footer);
     display: inline-block;
     border-radius: 5px;
     margin: 2px;
@@ -58,6 +58,11 @@ main {
 
 .grid {
     padding: 3px
+}
+
+.grid:hover,
+.expand:hover {
+    background-color: var(--sec-footer);
 }
 
 .expand {
@@ -118,6 +123,17 @@ footer {
 
 }
 
+.button:hover {
+    background-color: var(--sec-footer);
+    border-radius: 10px;
+}
+
+.option:hover {
+    color: var(--footer);
+    background-color: white;
+    border-radius: 5px;
+}
+
 .left-button {
     display: flex;
 }
@@ -134,6 +150,7 @@ footer {
 .option {
     margin-left: 10px;
     font-size: 12px;
+    padding: 5px
 }
 
 .share {
