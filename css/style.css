@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
-:root{
-    --footer:#222222;
-    --sec-footer:#4a4a4a;
+:root {
+    --footer: #222222;
+    --sec-footer: #4a4a4a;
+    --bg: black;
+    --text: white;
 
 
 }
@@ -16,11 +18,11 @@
 icone varie 
 
 <i class="fa-solid fa-user-plus"></i>
+<i class="fa-solid fa-microphone-slash"></i>
     <i class="fa-solid fa-video"></i>
     <i class="fa-sharp fa-solid fa-maximize"></i>
     <i class="fa-solid fa-user-group"></i>
     <i class="fa-solid fa-microphone"></i>
-    <i class="fa-solid fa-microphone-slash"></i>
     <i class="fa-sharp fa-solid fa-chart-column"></i>
     <i class="fa-solid fa-share-from-square"></i>
     <i class="fa-solid fa-record-vinyl"></i>
@@ -30,3 +32,33 @@ icone varie
  
  
     */
+
+body {
+    background-color: var(--bg);
+    color: var(--text)
+}
+
+main {
+    padding: 80px;
+}
+
+.user {
+    width: calc(100% / 7);
+    height: calc(100% / 5);
+    position: relative;
+
+}
+
+.user img {
+    width: 100%
+}
+
+.name-user {
+    background-color: var(--sec-footer);
+    opacity: 0.7;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    padding: 2px;
+
+}
