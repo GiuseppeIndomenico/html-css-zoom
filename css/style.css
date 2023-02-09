@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+:root{
+    --footer:#222222;
+    --sec-footer:#4a4a4a;
+
+
+}
+
+/* 
+
+icone varie 
+
+<i class="fa-solid fa-user-plus"></i>
+    <i class="fa-solid fa-video"></i>
+    <i class="fa-sharp fa-solid fa-maximize"></i>
+    <i class="fa-solid fa-user-group"></i>
+    <i class="fa-solid fa-microphone"></i>
+    <i class="fa-solid fa-microphone-slash"></i>
+    <i class="fa-sharp fa-solid fa-chart-column"></i>
+    <i class="fa-solid fa-share-from-square"></i>
+    <i class="fa-solid fa-record-vinyl"></i>
+    <i class="fa-sharp fa-solid fa-comment"></i>
+    <i class="fa-solid fa-angle-up"></i>
+    <i class="fa-solid fa-ellipsis"></i>
+ 
+ 
+    */
