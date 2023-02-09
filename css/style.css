@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 :root {
@@ -13,25 +14,14 @@
 
 }
 
-/* 
+/* icone main---
 
-icone varie 
-
-<i class="fa-solid fa-user-plus"></i>
-<i class="fa-solid fa-microphone-slash"></i>
-    <i class="fa-solid fa-video"></i>
+    <i class="fa-solid fa-table-cells-large"></i>
+    <i class="fa-solid fa-microphone-slash"></i>
     <i class="fa-sharp fa-solid fa-maximize"></i>
-    <i class="fa-solid fa-user-group"></i>
-    <i class="fa-solid fa-microphone"></i>
-    <i class="fa-sharp fa-solid fa-chart-column"></i>
-    <i class="fa-solid fa-share-from-square"></i>
-    <i class="fa-solid fa-record-vinyl"></i>
-    <i class="fa-sharp fa-solid fa-comment"></i>
-    <i class="fa-solid fa-angle-up"></i>
-    <i class="fa-solid fa-ellipsis"></i>
+
  
- 
-    */
+---*/
 
 body {
     background-color: var(--bg);
@@ -48,27 +38,27 @@ main {
     position: relative;
 }
 
-.speaker-wiew{position: absolute;
+.speaker-wiew {
+    position: absolute;
     top: 20px;
     right: 120px;
-   
+
 }
 
-.grid, .expand{
+.grid,
+.expand {
     background-color: var(--sec-footer);
     display: inline-block;
     border-radius: 5px;
-    margin:2px
-
-
+    margin: 2px
 }
 
-.grid{
-    padding:3px
+.grid {
+    padding: 3px
 }
 
-.expand{
-padding: 2px
+.expand {
+    padding: 2px
 }
 
 .user {
@@ -90,4 +80,33 @@ padding: 2px
     left: 0;
     padding: 2px;
 
+}
+
+
+/*icone footer
+
+    <i class="fa-solid fa-microphone"></i>
+    <i class="fa-solid fa-angle-up"></i>
+    <i class="fa-solid fa-user-group"></i>
+    <i class="fa-sharp fa-solid fa-chart-column"></i>
+    <i class="fa-solid fa-share-from-square"></i>
+    <i class="fa-solid fa-record-vinyl"></i>
+    <i class="fa-sharp fa-solid fa-comment"></i>
+    <i class="fa-solid fa-ellipsis"></i>
+    <i class="fa-solid fa-user-plus"></i>
+    <i class="fa-solid fa-video"></i>
+ 
+
+*/
+
+footer{
+    background-color: var(--footer);
+}
+
+.icon{
+    font-size: 28px;
+}
+
+.text{
+    text-transform: capitalize;
 }
