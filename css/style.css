@@ -39,26 +39,55 @@ body {
 }
 
 main {
-    padding: 80px;
+    padding: 80px 80px 20px 80px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px 5px;
+    position: relative;
+}
+
+.speaker-wiew{position: absolute;
+    top: 20px;
+    right: 120px;
+   
+}
+
+.grid, .expand{
+    background-color: var(--sec-footer);
+    display: inline-block;
+    border-radius: 5px;
+    margin:2px
+
+
+}
+
+.grid{
+    padding:3px
+}
+
+.expand{
+padding: 2px
 }
 
 .user {
-    width: calc(100% / 7);
+    width: calc(100% / 7 - 10px);
     height: calc(100% / 5);
     position: relative;
 
 }
 
 .user img {
-    width: 100%
+    width: 100%;
+    display: block;
 }
 
 .name-user {
-    background-color: var(--sec-footer);
-    opacity: 0.7;
+    background-color: rgb(34, 34, 34, 0.5);
     position: absolute;
     bottom: 0;
-    left:0;
+    left: 0;
     padding: 2px;
 
 }
